@@ -1,0 +1,21 @@
+<ThermistorObserverAP>
+    <TemperatureTable scenario="default">
+        <step level="0" temp="450" />
+        <step level="1" temp="470" />
+        <step level="2" temp="490" />
+        <step level="3" temp="530" />
+    </TemperatureTable>
+    <Action>
+        <step level="0">
+        </step>
+        <step level="1">
+            <type name="LCDBrightness" value="180" />
+        </step>
+        <step level="2">
+            <type name="LCDBrightness" value="170" />
+        </step>
+        <step level="3">
+            <type name="LCDBrightness" value="150" />
+        </step>
+    </Action>
+</ThermistorObserverAP>

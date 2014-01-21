@@ -1,0 +1,21 @@
+<ThermistorObserverAP>
+    <TemperatureTable scenario="default">
+        <step level="0" temp="420" />
+        <step level="1" temp="440" />
+        <step level="2" temp="460" />
+        <step level="3" temp="480" />
+    </TemperatureTable>
+    <Action>
+        <step level="0">
+        </step>
+        <step level="1">
+            <type name="ChargeCurrent" value="40" />
+        </step>
+        <step level="2">
+            <type name="ChargeCurrent" value="30" />
+        </step>
+        <step level="3">
+            <type name="ChargeCurrent" value="20" />
+        </step>
+    </Action>
+</ThermistorObserverAP>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="40.0dip" android:paddingTop="8.0dip" android:paddingRight="40.0dip" android:paddingBottom="39.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <view android:id="@id/s_view_cover_contextual_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" class="com.android.internal.policy.impl.sviewcover.SViewCoverWidget$Weather">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/weather_icon" android:layout_width="43.0dip" android:layout_height="47.0dip" android:layout_marginRight="3.0dip" />
+                <LinearLayout android:id="@id/temporature" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="47.0dip">
+                    <TextView android:textSize="30.0dip" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/clear_weather_temp" android:paddingTop="2.0dip" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="47.0dip" android:shadowColor="#80000000" android:shadowDy="2.0" android:fontFamily="sans-serif-light" />
+                    <ImageView android:id="@id/clear_weather_unit" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+                </LinearLayout>
+            </LinearLayout>
+        </view>
+        <FrameLayout android:id="@id/clear_shealth_contatiner" android:layout_width="fill_parent" android:layout_height="47.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <view android:orientation="vertical" android:id="@id/clock_time_and_date" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.android.internal.policy.impl.sviewcover.SViewCoverWidget$Clock">
+        <LinearLayout android:id="@id/clock_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-16.0dip">
+            <TextView android:textSize="76.0dip" android:textColor="#ffffffff" android:gravity="left" android:id="@id/digital_clock_time" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="82.0dip" android:shadowColor="#80000000" android:shadowDx="1.0" android:shadowDy="2.0" />
+            <TextView android:textSize="17.0dip" android:textColor="#ffffffff" android:layout_gravity="bottom" android:id="@id/digital_clock_ampm" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:shadowColor="#80000000" android:shadowDx="1.0" android:shadowDy="2.0" android:layout_weight="1.0" />
+        </LinearLayout>
+        <TextView android:textSize="17.0dip" android:textColor="#ffffffff" android:id="@id/digital_month_day" android:paddingLeft="6.0dip" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:shadowColor="#80000000" android:shadowDx="1.0" android:shadowDy="2.0" />
+    </view>
+    <FrameLayout android:id="@id/clear_battery_contatiner" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <view android:gravity="center" android:id="@id/missed_event_view" android:paddingTop="17.0dip" android:layout_width="fill_parent" android:layout_height="64.0dip" class="com.android.internal.policy.impl.sviewcover.SViewCoverWidget$MissedEvent">
+            <TextView android:textSize="24.0dip" android:textColor="#ffffffff" android:gravity="bottom" android:id="@id/missed_event_msg_cnt" android:paddingBottom="3.0dip" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="33.0dip" android:shadowColor="#80000000" android:shadowDx="1.0" android:shadowDy="2.0" android:drawableLeft="@drawable/clear_notification_ic_message" android:drawablePadding="5.0dip" />
+            <ImageView android:id="@id/missed_event_call_divider" android:background="@drawable/clear_notification_ic_divider" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginRight="9.0dip" />
+            <TextView android:textSize="24.0dip" android:textColor="#ffffffff" android:gravity="bottom" android:id="@id/missed_event_call_cnt" android:paddingBottom="3.0dip" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="33.0dip" android:shadowColor="#80000000" android:shadowDx="1.0" android:shadowDy="2.0" android:drawableLeft="@drawable/clear_notification_ic_missed_call" android:drawablePadding="5.0dip" />
+        </view>
+    </FrameLayout>
+</LinearLayout>

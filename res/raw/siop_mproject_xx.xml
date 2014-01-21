@@ -1,0 +1,48 @@
+<ThermistorObserverAP>
+    <TemperatureTable scenario="default">
+        <step level="0" temp="370" />
+        <step level="1" temp="390" />
+        <step level="2" temp="410" />
+        <step level="3" temp="430" />
+        <step level="4" temp="450" />
+        <step level="5" temp="470" />
+        <step level="6" temp="490" />
+        <step level="7" temp="650" />
+        <step level="8" temp="700" />
+    </TemperatureTable>
+    <Action>
+        <step level="0">
+        </step>
+        <step level="1">
+            <type name="ACL" value="on" />
+        </step>
+        <step level="2">
+            <type name="ACL" value="on" />
+            <type name="LCDBrightness" value="250" />
+        </step>
+        <step level="3">
+            <type name="ACL" value="on" />
+            <type name="LCDBrightness" value="230" />
+        </step>
+        <step level="4">
+            <type name="ACL" value="on" />
+            <type name="LCDBrightness" value="200" />
+        </step>
+        <step level="5">
+            <type name="ACL" value="on" />
+            <type name="LCDBrightness" value="200" />
+        </step>
+        <step level="6">
+            <type name="ACL" value="on" />
+            <type name="LCDBrightness" value="200" />
+        </step>
+        <step level="7">
+            <type name="ACL" value="on" />
+            <type name="LCDBrightness" value="200" />
+        </step>
+        <step level="8">
+            <type name="ACL" value="on" />
+            <type name="LCDBrightness" value="200" />
+        </step>
+    </Action>
+</ThermistorObserverAP>

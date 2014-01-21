@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <view android:layout_gravity="top|center" android:id="@id/s_view_cover_color_picker" android:layout_width="fill_parent" android:layout_height="118.0dip" android:layout_marginLeft="23.0dip" android:layout_marginTop="104.0dip" android:layout_marginRight="23.0dip" class="com.android.internal.policy.impl.sviewcover.SViewCoverColorPickerView" />
+        <ImageView android:id="@id/s_view_cover_color_picker_pattern" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/mainbg_pattern_mainarea" />
+    </FrameLayout>
+    <FrameLayout android:orientation="vertical" android:id="@id/s_view_cover_color_picker_background" android:paddingTop="@dimen/status_bar_height" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="18.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="top|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="41.0dip" android:text="@string/select_background_color" android:shadowColor="#bf000000" android:shadowDx="1.0" android:shadowDy="2.0" />
+        <Button android:textSize="18.0dip" android:textColor="#fff5f5f5" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/s_view_cover_color_set_button" android:background="@drawable/clear_colorset_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="34.0dip" android:text="@string/date_time_set" android:shadowColor="#bf000000" android:shadowDx="1.0" android:shadowDy="2.0" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,42 @@
+<ThermistorObserverAP>
+    <TemperatureTable>
+        <step level="0" temp="510" />
+        <step level="1" temp="530" />
+        <step level="2" temp="550" />
+        <step level="3" temp="570" />
+        <step level="4" temp="590" />
+        <step level="5" temp="610" />
+    </TemperatureTable>
+    <Action>
+        <step level="0">
+        </step>
+        <step level="1">
+            <type name="ARMFreq" value="1200000" />
+        </step>
+        <step level="2">
+            <type name="ARMFreq" value="1200000" />
+            <type name="ChargeCurrent" value="50" />
+            <type name="LCDBrightness" value="250" />
+        </step>
+        <step level="3">
+            <type name="ARMFreq" value="1000000" />
+            <type name="ChargeCurrent" value="30" />
+            <type name="LCDBrightness" value="230" />
+            <type name="Flash" value="off" />
+        </step>
+        <step level="4">
+            <type name="ARMFreq" value="800000" />
+            <type name="ChargeCurrent" value="30" />
+            <type name="LCDBrightness" value="230" />
+            <type name="ACL" value="on" />
+            <type name="Flash" value="off" />
+        </step>
+        <step level="5">
+            <type name="ARMFreq" value="800000" />
+            <type name="ChargeCurrent" value="0" />
+            <type name="LCDBrightness" value="230" />
+            <type name="ACL" value="on" />
+            <type name="Flash" value="off" />
+        </step>
+    </Action>
+</ThermistorObserverAP>

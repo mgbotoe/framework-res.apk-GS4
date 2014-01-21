@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.DeviceDefault.SearchResult.Title" parent="@style/TextAppearance.Holo.SearchResult.Title">
+        <item name="textColor">@color/primary_text_holo_dark</item>
+    </style>
+    <style name="TextAppearance.DeviceDefault.DialogWindowTitle" parent="@style/TextAppearance.Holo.DialogWindowTitle">
+        <item name="textSize">21.0dip</item>
+        <item name="textColor">#ffebebeb</item>
+    </style>
+    <style name="TextAppearance.DeviceDefault.AlertDialog" parent="@style/TextAppearance.DeviceDefault">
+        <item name="textSize">19.0sp</item>
+        <item name="textColor">#fff5f5f5</item>
+    </style>
+</resources>

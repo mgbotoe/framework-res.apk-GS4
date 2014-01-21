@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.policy.impl.keyguard.sec.KeyguardSPassUnlockView android:orientation="vertical" android:id="@id/keyguard_spass_unlock_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/keyguard_accessibility_spass_unlock" android:layout_maxHeight="@dimen/keyguard_security_height" android:layout_maxWidth="@dimen/keyguard_security_width"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/keyguard_message_area" />
+    <com.android.internal.policy.impl.keyguard.CarrierText android:textSize="@dimen/kg_status_line_font_size" android:textColor="#fff9f9f9" android:ellipsize="marquee" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:singleLine="true" android:shadowColor="#99000000" android:shadowDy="1.0" android:shadowRadius="1.0" />
+    <FrameLayout android:id="@id/keyguard_bouncer_frame" android:background="@drawable/kg_bouncer_bg_white" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:orientation="vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="17.0dip" android:textColor="#ffebebeb" android:gravity="center" android:id="@id/kg_spass_status" android:clickable="true" android:layout_width="260.0dip" android:layout_height="60.0dip" android:shadowColor="#7f000000" android:shadowDy="2.0" android:shadowRadius="2.0" android:layout_centerHorizontal="true" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textSize="13.0dip" android:textColor="#fff5f5f5" android:gravity="center" android:layout_gravity="bottom|left|center" android:id="@id/kg_spass_cancel_btn" android:background="@drawable/keyguard_spass_btn_pwd" android:layout_width="74.0dip" android:layout_height="27.0dip" android:layout_marginLeft="13.0dip" android:layout_marginBottom="18.0dip" android:text="@string/kg_spass_password" />
+                <ImageView android:layout_gravity="center" android:id="@id/kg_spass_unlock" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+</com.android.internal.policy.impl.keyguard.sec.KeyguardSPassUnlockView>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="appce_ic_music" />
+    <item type="drawable" name="clear_message_icon_call" />
+    <item type="drawable" name="clear_message_icon_message" />
+    <item type="drawable" name="clear_page_indicator_focus" />
+    <item type="drawable" name="clear_page_indicator_normal" />
+    <item type="drawable" name="weather_icon_b_01" />
+    <item type="drawable" name="weather_icon_b_02" />
+    <item type="drawable" name="weather_icon_b_03" />
+    <item type="drawable" name="weather_icon_b_04" />
+    <item type="drawable" name="weather_icon_b_05" />
+    <item type="drawable" name="weather_icon_b_06" />
+    <item type="drawable" name="weather_icon_b_07" />
+    <item type="drawable" name="weather_icon_b_08" />
+    <item type="drawable" name="weather_icon_b_09" />
+    <item type="drawable" name="weather_icon_b_10" />
+    <item type="drawable" name="weather_icon_b_11" />
+    <item type="drawable" name="weather_icon_b_12" />
+    <item type="drawable" name="weather_icon_b_13" />
+    <item type="drawable" name="weather_icon_b_14" />
+    <item type="drawable" name="weather_icon_b_15" />
+    <item type="drawable" name="weather_icon_b_16" />
+    <item type="drawable" name="weather_icon_b_17" />
+    <item type="drawable" name="weather_icon_b_18" />
+    <item type="drawable" name="weather_icon_b_19" />
+    <item type="drawable" name="alert_dark_frame">@drawable/popup_full_dark</item>
+    <item type="drawable" name="alert_light_frame">@drawable/popup_full_bright</item>
+    <item type="drawable" name="dialog_frame">@drawable/panel_background</item>
+    <item type="drawable" name="editbox_dropdown_dark_frame">@drawable/editbox_dropdown_background_dark</item>
+    <item type="drawable" name="editbox_dropdown_light_frame">@drawable/editbox_dropdown_background</item>
+    <item type="drawable" name="menu_frame">@drawable/menu_background</item>
+    <item type="drawable" name="menu_full_frame">@drawable/menu_background_fill_parent_width</item>
+    <item type="drawable" name="stat_notify_sync_noanim">@drawable/stat_notify_sync_anim0</item>
+    <item type="drawable" name="stat_sys_download_done">@drawable/stat_sys_download_done_static</item>
+    <item type="drawable" name="stat_sys_upload_done">@drawable/stat_sys_upload_anim0</item>
+    <item type="drawable" name="screen_background_dark">#ff000000</item>
+    <item type="drawable" name="screen_background_light">#ffffffff</item>
+    <item type="drawable" name="screen_background_dark_transparent">#80000000</item>
+    <item type="drawable" name="screen_background_light_transparent">#80ffffff</item>
+    <item type="drawable" name="dialog_holo_dark_frame">@drawable/dialog_full_holo_dark</item>
+    <item type="drawable" name="dialog_holo_light_frame">@drawable/dialog_full_holo_light</item>
+    <item type="drawable" name="clear_scroll_bg" />
+    <item type="drawable" name="mainbg_pattern_mainarea" />
+    <item type="drawable" name="settings_color_select_box" />
+    <item type="drawable" name="settings_colorchip_none" />
+    <item type="drawable" name="settings_colorchip_shadow" />
+    <item type="drawable" name="weather_events_c" />
+    <item type="drawable" name="weather_events_f" />
+    <item type="drawable" name="weather_events_high_low_c" />
+    <item type="drawable" name="weather_events_high_low_f" />
+    <item type="drawable" name="weather_icon_slash" />
+    <item type="drawable" name="status_bar_closed_default_background">#ff000000</item>
+    <item type="drawable" name="status_bar_opened_default_background">#ff000000</item>
+    <item type="drawable" name="notification_item_background_color">#00000000</item>
+    <item type="drawable" name="notification_item_background_color_pressed">#00257390</item>
+    <item type="drawable" name="search_bar_default_color">#ff000000</item>
+    <item type="drawable" name="safe_mode_background">#ff000000</item>
+    <item type="drawable" name="input_method_fullscreen_background">#fff9f9f9</item>
+    <item type="drawable" name="input_method_fullscreen_background_holo">@drawable/screen_background_holo_dark</item>
+    <item type="drawable" name="selected_day_background">#ff0092f4</item>
+    <item type="drawable" name="screen_background_holo_light">#fff3f3f3</item>
+    <item type="drawable" name="screen_background_holo_dark">#ff000000</item>
+    <item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
+    <item type="drawable" name="notification_template_icon_low_bg">#00000000</item>
+    <item type="drawable" name="mw_background_null">#00000000</item>
+</resources>

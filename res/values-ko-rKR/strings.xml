@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="global_actions_longlife_mode_on_status">긴급 모드 설정중</string>
+    <string name="global_actions_longlife_mode_off_status">긴급 모드 미설정</string>
+    <string name="global_actions_toggle_longlife_mode">긴급 모드</string>
+    <string name="global_actions_toggle_longlife_mode_enable">긴급 모드 실행</string>
+    <string name="global_actions_toggle_longlife_mode_disable">긴급 모드 해제</string>
+    <string name="global_actions_toggle_longlife_mode_disable_msg">긴급 모드를 하제 하기 위해 디바이스를 재시작합니다</string>
+    <string name="global_actions_toggle_longlife_mode_info_header">긴급 모드에서 배터리 수명을 늘릴 수 있습니다</string>
+    <string name="global_actions_toggle_longlife_mode_info_1">화면의 색을 회색톤으로 자동 조절</string>
+    <string name="global_actions_toggle_longlife_mode_info_2">필요 최소한의 앱이 사용 가능</string>
+    <string name="global_actions_toggle_longlife_mode_info_3">화면 OFF시 데이터 네트워크를 제한</string>
+    <string name="global_actions_toggle_longlife_mode_info_4">Wi-Fi나 Bluetooth등의 접속 기능을 해제</string>
+    <string name="global_actions_toggle_longlife_mode_info_end">"TalkBack과 S View Cover 등 일부 기능이 올바르게 동작하지 않을 수 있습니다.
+이 모드를 종료한 뒤 홈 화면에 일부 위젯이 표시되지 않습니다. 다시 배치할 필요가 있을지도 모릅니다."</string>
+    <string name="global_actions_toggle_longlife_mode_info_end_2">주의: 카메라, MobileTV, 인터넷 등 사용시 전류 소모가 많습니다.</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="keyguard_security_width">360.0dip</dimen>
+    <dimen name="keyguard_eca_bottom_margin">17.0dip</dimen>
+    <dimen name="keyguard_voice_height">292.0dip</dimen>
+    <dimen name="keyguard_voice_msg_width">252.0dip</dimen>
+    <dimen name="keyguard_voice_msg_height">84.0dip</dimen>
+    <dimen name="keyguard_voice_msg_margintop">4.0dip</dimen>
+    <dimen name="keyguard_voice_text_size">19.0dip</dimen>
+    <dimen name="keyguard_facevoice_voice_level_margintop">95.0dip</dimen>
+    <dimen name="keyguard_voice_icon_margintop">120.0dip</dimen>
+    <dimen name="keyguard_voice_msg2_margintop">216.0dip</dimen>
+    <dimen name="multiwindow_gap">25.0dip</dimen>
+    <dimen name="multiwindow_def_width">344.0dip</dimen>
+    <dimen name="multiwindow_def_height">268.0dip</dimen>
+    <dimen name="multiwindow_minimized_width">48.0dip</dimen>
+    <dimen name="multiwindow_minimized_height">48.0dip</dimen>
+    <dimen name="multiwindow_minimize_shift_x">5.0dip</dimen>
+    <dimen name="multiwindow_minimize_shift_x_arrange">60.0dip</dimen>
+    <dimen name="multiwindow_titlebar_height">22.0dip</dimen>
+    <dimen name="multiwindow_resize_area">18.0dip</dimen>
+</resources>

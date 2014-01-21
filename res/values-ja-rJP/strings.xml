@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="global_actions_longlife_mode_on_status">緊急時長持ちモード 有効</string>
+    <string name="global_actions_longlife_mode_off_status">緊急時長持ちモード 無効</string>
+    <string name="global_actions_toggle_longlife_mode">緊急時長持ちモード</string>
+    <string name="global_actions_toggle_longlife_mode_enable">緊急時長持ちモードを有効</string>
+    <string name="global_actions_toggle_longlife_mode_disable">緊急時長持ちモードを無効にする</string>
+    <string name="global_actions_toggle_longlife_mode_disable_msg">緊急時長持ちモードを無効にするため、端末を再起動します。</string>
+    <string name="global_actions_toggle_longlife_mode_info_header">緊急時長持ちモードでは以下の方法でバッテリー消費を抑えます。</string>
+    <string name="global_actions_toggle_longlife_mode_info_1">画面の色調を灰色に調整します。</string>
+    <string name="global_actions_toggle_longlife_mode_info_2">使用可能なアプリケーションの数を制限します。</string>
+    <string name="global_actions_toggle_longlife_mode_info_3">画面OFF時にデータネットワーク機能をOFFにします。</string>
+    <string name="global_actions_toggle_longlife_mode_info_4">Wi-FiやBluetoothなどの接続機能をOFFにします。</string>
+    <string name="global_actions_toggle_longlife_mode_info_end">"TalkBackやS View Coverなど、一部機能が制限されます。
+
+このモードを終了する際、端末の再起動が必要になります。また、このモードを終了した後、ホーム画面の一部ウィジェットが表示されなくなり、再度配置が必要になることがあります。"</string>
+    <string name="global_actions_toggle_longlife_mode_info_end_2">注意：カメラやワンセグ、ブラウザはバッテリーをより多く消費します。</string>
+</resources>
